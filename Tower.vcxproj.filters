@@ -18,18 +18,129 @@
     <ClCompile Include="CsvUtil.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="TowerManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerPin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerRocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerStar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerOpt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelConfigUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrierBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrierFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrierLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrierManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerHelpLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NumSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityLayerBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OptLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TowerBase.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="PublicDefine.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CsvUtil.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Enity.h">
+    <ClInclude Include="PublicSourceDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerStar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerPin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerRocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerOpt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelConfigUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrierBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrierFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrierManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrierLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerHelpLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NumSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityLayerBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OptLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

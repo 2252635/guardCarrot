@@ -127,13 +127,50 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BarrierBase.cpp" />
+    <ClCompile Include="BarrierFactory.cpp" />
+    <ClCompile Include="BarrierLayer.cpp" />
+    <ClCompile Include="BarrierManager.cpp" />
     <ClCompile Include="CsvUtil.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntityLayerBase.cpp" />
+    <ClCompile Include="LevelConfigUtil.cpp" />
+    <ClCompile Include="NumSprite.cpp" />
+    <ClCompile Include="OptLayer.cpp" />
+    <ClCompile Include="SoundUtil.cpp" />
+    <ClCompile Include="TowerBase.cpp" />
+    <ClCompile Include="TowerHelpLayer.cpp" />
+    <ClCompile Include="TowerLayer.cpp" />
+    <ClCompile Include="TowerPin.cpp" />
+    <ClCompile Include="TowerFactory.cpp" />
+    <ClCompile Include="TowerManager.cpp" />
+    <ClCompile Include="TowerOpt.cpp" />
+    <ClCompile Include="TowerStar.cpp" />
+    <ClCompile Include="TowerRocket.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BarrierBase.h" />
+    <ClInclude Include="BarrierFactory.h" />
+    <ClInclude Include="BarrierLayer.h" />
+    <ClInclude Include="BarrierManager.h" />
     <ClInclude Include="CsvUtil.h" />
-    <ClInclude Include="Enity.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntityLayerBase.h" />
+    <ClInclude Include="LevelConfigUtil.h" />
+    <ClInclude Include="NumSprite.h" />
+    <ClInclude Include="OptLayer.h" />
     <ClInclude Include="PublicDefine.h" />
-    <ClInclude Include="TowerBase.h" />
+    <ClInclude Include="PublicSourceDefine.h" />
+    <ClInclude Include="SoundUtil.h" />
+    <ClInclude Include="Tower.h" />
+    <ClInclude Include="TowerHelpLayer.h" />
+    <ClInclude Include="TowerLayer.h" />
+    <ClInclude Include="TowerPin.h" />
+    <ClInclude Include="TowerFactory.h" />
+    <ClInclude Include="TowerManager.h" />
+    <ClInclude Include="TowerOpt.h" />
+    <ClInclude Include="TowerStar.h" />
+    <ClInclude Include="TowerRocket.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

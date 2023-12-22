@@ -2,9 +2,21 @@
 #ifndef _PUBLIC_DEFINE_
 #define _PUBLIC_DEFINE_
 
-#define PHOTOPOSTFIX .png
+#include "cocos2d.h"
+#include "VisibleRect.h"
+#include "PublicSourceDefine.h"
+#include "CsvUtil.h"
+#include <tuple>
+#include <vector>
+
+const static std::string PHOTOPOSTFIX = ".png";
+const static std::string PLISTPOSTFIX = ".plist";
+
 //#define TOWER_VECTOR std::vector<Tower*>
-using TowerVec = std::vector<Tower*>;
+using TowerVec = Vector<Tower*>;
+using BarrierVec = Vector<BarrierBase*>;
+
+
 
 enum CsvPublicProperty
 {
@@ -25,16 +37,37 @@ enum CsvTowerProperty
     IS_ROTATE,
     CREATE_COST
 };
+enum TowerType
+{
+    STAR_TOWER,
+    PIN_TOWER,
+    ROCKET_TOWER
+};
+enum BarrierType
+{
+    BALLON,
+    CLOUD,
+    STONE,
+    TREE
+};
+class AttackProperty
+{
+public:
+    int AttackState = 0;
+    int Duration = 0;
+    int Attack = 0;
+    int BulletType = 0;
+};
 
-#define CREATE_INSTANCE_FUNC(CLASS) \
+#define CREATE_INSTANCE_FUNC(__CLASS__) \
 private:\
-    static CLASS *Instance;\
+    static __CLASS__ *Instance;\
 public:\
-static CLASS* GetInstance()\
+static __CLASS__* getInstance()\
 {\
     if(!Instance)\
     {\
-        Instance = new CLASS();\
+        Instance = new __CLASS__();\
         if(Instance && Instance->Initiate())\
         {\
             Instance->autorelease();\
@@ -52,6 +85,6 @@ static void DestroyInstance()\
 {\
     CC_SAFE_RELEASE_NULL(Instance);\
 }
-#define NOTIFY cocos2d::NotificationCenter::getInstance()
+#define NOTIFY cocos2d::NotificationCenter::getInstance()//观察者中心
 
 #endif _PUBLIC_DEFINE
