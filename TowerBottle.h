@@ -1,0 +1,15 @@
+#pragma once
+#ifndef _CARROT_TOWER_BOTTLE_
+#define _CARROT_TOWER_BOTTLE_
+#include "TowerBase.h"
+class TowerBottle:public TowerBase
+{
+public:
+	void setParameter();//设置参数
+	bool checkMoney();//检查金钱
+	bool doUpAction();//升级函数
+	void rotate();//进行旋转的函数
+	void fire();//进行攻击的函数
+	void fireAction();//发出攻击的动作
+};
+#endif
