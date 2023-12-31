@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseLevelScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="EndLoseScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="EndWinScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBlueView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPurpleView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StartGameScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrierBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrierManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BottleBullet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Carrot.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicProperty.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Hp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPurple.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBlock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ShitBullet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="StarBullet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerBottle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerMenu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerShit.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TowerStar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="VictimEntityBase.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBlue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseLevelScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="EndLoseScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="EndWinScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManage.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBlueView.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPurpleView.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StartGameScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PublicDefine.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="PublicSourceDefine.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrierBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrierManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="BottleBullet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Carrot.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicProperty.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Hp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPurple.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBlock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ShitBullet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="StarBullet.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerBottle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerMenu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerShit.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="TowerStar.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="VictimEntityBase.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBlue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
