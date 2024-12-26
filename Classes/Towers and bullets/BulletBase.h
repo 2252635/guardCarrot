@@ -8,18 +8,18 @@ class BulletBase:public Node
 {
 
 protected:
-	Sprite* bulletPanel;//×Óµ¯Í¼Æ¬
-	VictimEntityBase* target;//×Óµ¯µÄ¹¥»÷Ä¿±ê
+	Sprite* bulletPanel;//å­å¼¹å›¾ç‰‡
+	VictimEntityBase* target;//å­å¼¹çš„æ”»å‡»ç›®æ ‡
 
-	BulletType myType;//Ö¸Ã÷×Óµ¯µÄÀàĞÍ
+	BulletType myType;//æŒ‡æ˜å­å¼¹çš„ç±»å‹
 	bool isSlow;
 public:
-	BulletBase* create(int grade,BulletType type,VictimEntityBase* newTarget,Vec2 startPos);//´´½¨×Óµ¯²¢ÉèÖÃ¹¥»÷Ä¿±êµÄº¯Êı
+	BulletBase* create(int grade,BulletType type,VictimEntityBase* newTarget,Vec2 startPos);//åˆ›å»ºå­å¼¹å¹¶è®¾ç½®æ”»å‡»ç›®æ ‡çš„å‡½æ•°
 	virtual void setParameter()=0;
-	void move();//½øĞĞÒÆ¶¯µÄº¯Êı
-    virtual void attack(int hurt, bool beSlow)=0;//Ö´ĞĞ¹¥»÷²Ù×÷µÄº¯Êı
+	void move();//è¿›è¡Œç§»åŠ¨çš„å‡½æ•°
+    	virtual void attack(int hurt, bool beSlow)=0;//æ‰§è¡Œæ”»å‡»æ“ä½œçš„å‡½æ•°
 	Sprite* getBullet() { return bulletPanel; };
-	virtual~BulletBase();//Îö¹¹º¯Êı
+	virtual~BulletBase();//ææ„å‡½æ•°
 
 };
 #endif
